@@ -1,7 +1,8 @@
-0f08fbf1dc1aa95963bce0c175619e04 *DESCRIPTION
-32aec07bb1cd5d4a31d0cc10eaa35245 *NAMESPACE
+69b03fe383cc7235d9ecd02e93d786d9 *DESCRIPTION
+99444f29ad50abc045d7ea2c111b0af3 *NAMESPACE
 8a422e4151458603d1426e0543b079f4 *R/RcppExports.R
-c87bed5be02888edda20e6e345ba4995 *R/assign-active.r
+217129ad01be7fb530001603574f9b65 *R/active.r
+fe6c2dd0730ace702677a47f29370979 *R/assign-active.r
 0d0072f1f78c84118b04c00dc5a1d87c *R/assign-constant.r
 dd35c2eadb271b4e8cbeaf692ca02af8 *R/assign-delayed.r
 fe578f15e758cbc7b602d3ba746ad025 *R/bytes.r
@@ -15,7 +16,7 @@ d68fd902b04657ec32010748003478b3 *R/f.r
 1d0d72348d7c1d4970b38ea693c4c95f *R/find-funs.r
 c5c447cdb517d16d6be0a6732d57f04b *R/find_uses.R
 7ad2a298813368d4c4957cd1e5111bfb *R/ftype.r
-fe2949af358434a76457be278f497370 *R/inspect.r
+671201113d21f1eedf303d2a3e05c107 *R/inspect.r
 ce792bab4d291c046aaa2fe19409c38a *R/make-call.R
 e13bfa9062d9309a7fbef458b3cb6de1 *R/make-function.r
 6ddc584656c0883b380fe8ce4c56533d *R/mem.R
@@ -30,14 +31,14 @@ c23061304c1b9aaa4696e760495ade30 *R/partial.r
 f0d6490435fa835b37fca6bb12151b64 *R/promise.r
 277fff8c7885a75ea0b1856022d9c3d8 *R/rebind.r
 6ba3f352a3d270f37fe08a8765a0fb27 *R/rls.r
-cf15c3580ea3845e38787c946b17e4c6 *R/s3.r
+b3d3adb0f607768d970a344e367ee32d *R/s3.r
 196c03a06b82548026e3f16887b05546 *R/standardise-call.r
 0d1a4abf11dca6fbbc008e5d7ae20458 *R/substitute.r
 7265236ce0e326d028467f11b91bb8c6 *R/unenclose.r
 411c3b548fe2076f45d3c33b6b1d0e1a *R/uneval.r
 658e92ea420bb9928b631c076f65f167 *R/utils.r
 a8c724bca785015d15a84a0c20d4b246 *R/where.r
-46d71442eb195c66728a4b5666523aa3 *README.md
+b98df10afebe5e022c3f8fca437fe7ba *README.md
 af73e6663599915f967f2645816ae674 *man/as.envlist.Rd
 9486cb9c02d2356da138e0f484500056 *man/assign-active.Rd
 1aa88481cec96d150e740663748c58ec *man/assign-constant.Rd
@@ -54,6 +55,7 @@ df8070567848381ec8ae132f93c3652b *man/find_funs.Rd
 88ab8f25bd86a479c3d4840591f78227 *man/find_uses.Rd
 8a4d1fb96436fa901f714fe1b55b85f3 *man/ftype.Rd
 727bd4c1979a39ed48532c7170852c60 *man/inspect.Rd
+b00d168a406ddfa07b7f9d192418ead2 *man/is_active_binding.Rd
 39435a253aea04c79f391c91d339311b *man/is_promise.Rd
 a3bd2d560d55f8cc9660b86346813972 *man/is_s3_generic.Rd
 d3436da41511809edd163dc1baede3f8 *man/make_call.Rd
@@ -77,7 +79,7 @@ abe342f5119c60298a8458e5465db0dd *man/show_c_source.Rd
 f6543821e5acbe536344dd91dd723ecc *man/standardise_call.Rd
 217f5418939f4b39292269e8ace345cf *man/subs.Rd
 27d20ea45d5ffc53786d789c0f224761 *man/substitute_q.Rd
-77dc6fffcd496e822d7868736f52b86a *man/track_copy.Rd
+294ecc61b2210f7894cc89f48fb023ac *man/track_copy.Rd
 e937c9725eca9f01121cbdd7ce54f40c *man/unenclose.Rd
 d84fd147e4a892aab9bddeedf8364bc6 *man/uneval.Rd
 64b4d56df1e1d2ed24d23634f8c83273 *man/where.Rd
@@ -89,7 +91,9 @@ d3c2cf795427efcfae59c7ef45769624 *src/inspect.cpp
 76eff675a1b4cf97d4ff39712b78e63f *src/slice.cpp
 399be4f9082dc1070f01018660c6f9b5 *src/typename.cpp
 6e045da781d3080ed6ba76ce01c7a973 *tests/testthat.R
+f4b823ed75ae7c30ef64dc98240982ab *tests/testthat/test-active-binding.r
 cb3bc8a2aca93a4b7ccf208f5b5655c9 *tests/testthat/test-bytes.r
 083965719210da47e64a8f46fd3f19c4 *tests/testthat/test-ftype.r
 a2e7290ae93eaa2e6d6865626fbdb4da *tests/testthat/test-method-from-call.r
 e99df9f37147b2d2c6c9f444e7261452 *tests/testthat/test-object_size.R
+819dc36828574723d904f64e9d6f825b *tests/testthat/test-track-copy.R
