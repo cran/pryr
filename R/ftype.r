@@ -45,8 +45,8 @@ ftype <- function(f) {
 # Hacky method to get name of primitive function
 primitive_name <- function(f) {
   stopifnot(is.primitive(f))
-  
-  str <- capture.output(print(f))
+
+  str <- deparse(f)
   match <- regexec(".Primitive\\([\"](.*?)[\"]\\)", str)
   regmatches(str, match)[[1]][2]
 }
@@ -57,7 +57,7 @@ is_internal <- function(f) {
   any(calls %in% ".Internal")
 }
 
-# fs <- setNames(lapply(ls("package:base"), get), ls("package:base"))
+# fs <- stats::setNames(lapply(ls("package:base"), get), ls("package:base"))
 # internal <- Filter(is_internal, fs)
 # icall <- sapply(internal, internal_name)
 # icall[names(icall) != icall]
