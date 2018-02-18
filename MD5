@@ -1,4 +1,4 @@
-6559f21e7c8caf3643cb4d9074217b66 *DESCRIPTION
+27c72858158b4335feacd960900bd884 *DESCRIPTION
 ce5975ca03f1bf3648dc55fa91d0a291 *NAMESPACE
 3355f4a2ebc21e47c0887fa8a366be08 *R/RcppExports.R
 217129ad01be7fb530001603574f9b65 *R/active.r
@@ -98,4 +98,4 @@ cb3bc8a2aca93a4b7ccf208f5b5655c9 *tests/testthat/test-bytes.r
 cf0b3eda1aea592cab6e6947a9ffb897 *tests/testthat/test-ftype.r
 a2e7290ae93eaa2e6d6865626fbdb4da *tests/testthat/test-method-from-call.r
 d0882f0f45b9ddacff0cf98a7d99cee6 *tests/testthat/test-object_size.R
-819dc36828574723d904f64e9d6f825b *tests/testthat/test-track-copy.R
+3a2fa1bbf3f8f4f587a02e15e473f915 *tests/testthat/test-track-copy.R
