@@ -1,5 +1,5 @@
 Package: pryr
-Version: 0.1.4
+Version: 0.1.5
 Title: Tools for Computing on the Language
 Description: Useful tools to pry back the covers of R and understand the
     language at a deeper level.
@@ -13,13 +13,13 @@ URL: https://github.com/hadley/pryr
 BugReports: https://github.com/hadley/pryr/issues
 LinkingTo: Rcpp
 Depends: R (>= 3.1.0)
-Imports: stringr, codetools, methods, Rcpp (>= 0.11.0)
+Imports: stringr, codetools, methods, Rcpp (>= 0.11.0), lobstr
 Suggests: testthat (>= 0.8.0)
-RoxygenNote: 6.0.1
+RoxygenNote: 7.1.1
 NeedsCompilation: yes
-Packaged: 2018-02-17 16:16:12 UTC; hadley
+Packaged: 2021-07-26 04:38:45 UTC; hadley
 Author: Hadley Wickham [aut, cre],
   R Core team [ctb] (Some code extracted from base R)
 Maintainer: Hadley Wickham <hadley@rstudio.com>
 Repository: CRAN
-Date/Publication: 2018-02-18 04:42:23 UTC
+Date/Publication: 2021-07-26 09:30:02 UTC
