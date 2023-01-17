@@ -1,4 +1,4 @@
-7af63538f7796dd96a4bf41e25150c74 *DESCRIPTION
+8cae783b632f243b13f13506d2659627 *DESCRIPTION
 f94a82c5a3b7c68c1d4166a5731c0b04 *NAMESPACE
 c22ca4321bbe388ca9c1ed202cda7150 *R/RcppExports.R
 217129ad01be7fb530001603574f9b65 *R/active.r
@@ -38,7 +38,7 @@ f0d6490435fa835b37fca6bb12151b64 *R/promise.r
 411c3b548fe2076f45d3c33b6b1d0e1a *R/uneval.r
 658e92ea420bb9928b631c076f65f167 *R/utils.r
 a8c724bca785015d15a84a0c20d4b246 *R/where.r
-cc855665a1c9365334b419829b039959 *README.md
+efaecaef4af537836c04df9ebefafcef *README.md
 822816f250d9a606e9881a9478437c98 *man/as.envlist.Rd
 0a1f4272801a79819567c0adebea054b *man/assign-active.Rd
 cf29c307c4f87a416a94ef53998766f2 *man/assign-constant.Rd
@@ -84,7 +84,7 @@ ebfd70439afe6c96db9fa1f3b5b7ff71 *man/standardise_call.Rd
 f1909fe4d1505d295546579c39adfb74 *man/uneval.Rd
 7cbd6e405f4ba6552f128f4917deca3d *man/where.Rd
 038105cb8cbc66308a64e73cba77186b *src/RcppExports.cpp
-5127adb9c10a03b4ede5cb990c5e1563 *src/bytes.cpp
+b144043b4018a262566dbf4ea2c9031e *src/bytes.cpp
 29fb3e65ef7115f6f9f80cee8902721a *src/inspect.cpp
 31eb25911786edeced0157ee87459f51 *src/promise.cpp
 76eff675a1b4cf97d4ff39712b78e63f *src/slice.cpp
